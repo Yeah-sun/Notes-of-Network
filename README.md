@@ -83,3 +83,20 @@
    * 协议,首部校验和
 * 网络层数据部分
    * ARP,ICMP,IP 
+  
+#### 6.传输层
+* 初识传输层的俩个协议
+* UDP(Transmission Control Protocol)
+   * 数据格式
+   * 校验和
+   * 端口
+* TCP(User Datagram Protocol)
+   * 数据格式以及俩个细节
+   * 检验(checksum)和数据偏移(data offset)
+   * 标志位(Flags)
+   * 序号(Sequence Number),确认号(Acknowledge Number),窗口(Window)
+   * TCP的4大要点
+     * 可靠传输
+     * 流量控制
+     * 拥塞控制
+     * 连接管理 
